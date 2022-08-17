@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	filepathList, err := FindFiles("infrastructure", ".tf")
+	filepathList, err := FindFiles("terraform", ".tf")
 	if err != nil {
 		log.Fatal(err)
 	}
